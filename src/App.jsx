@@ -5,6 +5,7 @@ function App() {
   
 
   return (
+    <>
     <main className=' container m-auto'>
       <Header />
       <Nav />
@@ -13,8 +14,10 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Contact />
-      <Footer />
     </main>
+    <Footer />
+    </>
+
   )
 }
 

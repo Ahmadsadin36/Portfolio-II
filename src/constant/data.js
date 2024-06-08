@@ -1,10 +1,14 @@
 
-import { GoProjectSymlink } from "react-icons/go";
+import { GoMail, GoProjectSymlink } from "react-icons/go";
 import { IoCodeWorkingOutline } from "react-icons/io5";
 import { MdOutlineCastForEducation } from "react-icons/md";
 import project from "../assets/project.jpg"
 import { ImUserTie } from "react-icons/im";
 import { SlUserFemale } from "react-icons/sl";
+import { FaWhatsapp } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import { FaTelegramPlane } from "react-icons/fa";
+
 
 
 // little cards data
@@ -197,6 +201,30 @@ export const recomandations = [
         description: "Ahmad is a great developer.",
         contact: ""
     },
+]
+// contact
+export const contact = [
+    {
+        title: "Whatsapp",
+        icon: FaWhatsapp,
+        contact: "",
+        link: "https://wa.me/"
+        
+    },
+    {
+        title: "Email",
+        icon: SiGmail,
+        contact: "",
+        link: "mailto:sadinn.ahmad@gmail.com",
+    },
+    {
+        title: "telegram",
+        icon: FaTelegramPlane,
+        contact: "02152148215",
+        link: "https://t.me/ahmadsadin"
+    }
+
+
 ]
 
         
